@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feysal Fitness Center — Baidoa</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#home" class="brand">FEYSAL<span>.</span></a>
+    <nav class="links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#membership">Membership</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#register">Register</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#register" class="btn btn-accent nav-cta">Register Now</a>
+    <button class="burger" id="burger" aria-label="menu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <img src="https://loremflickr.com/1600/1000/gym,weightlifting,fitness/all?lock=1" alt="">
+    <div class="hero-overlay"></div>
+  </div>
+  <div class="hero-content">
+    <p class="eyebrow">Baidoa · Somalia</p>
+    <h1>STRONGER<br>EVERY<br>DAY.</h1>
+    <p class="hero-sub">Feysal Fitness Center — the place to build your body, your mindset, and your confidence.</p>
+    <div class="hero-actions">
+      <a href="#register" class="btn btn-accent">Register Now</a>
+      <a href="#services" class="btn btn-ghost">See Services</a>
+    </div>
+  </div>
+
+  <!-- Live rep counter -->
+  <div class="rep-widget" aria-hidden="true">
+    <span class="rep-label">REPS TODAY</span>
+    <span class="rep-count" id="repCount">0</span>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>DISCIPLINE • CONSISTENCY • STRENGTH • COMMUNITY • PROGRESS • DISCIPLINE • CONSISTENCY • STRENGTH • COMMUNITY • PROGRESS •&nbsp;</span>
+    <span>DISCIPLINE • CONSISTENCY • STRENGTH • COMMUNITY • PROGRESS • DISCIPLINE • CONSISTENCY • STRENGTH • COMMUNITY • PROGRESS •&nbsp;</span>
+  </div>
+</div>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="stat"><span class="stat-num" data-target="500">0</span><span class="stat-label">Members</span></div>
+  <div class="stat"><span class="stat-num" data-target="12">0</span><span class="stat-label">Trainers</span></div>
+  <div class="stat"><span class="stat-num" data-target="7">0</span><span class="stat-label">Days/Week</span></div>
+  <div class="stat"><span class="stat-num" data-target="6">0</span><span class="stat-label">Years of Experience</span></div>
+</section>
+
+<!-- SERVICES -->
+<section class="section" id="services">
+  <div class="section-head">
+    <p class="eyebrow">Services</p>
+    <h2>What We Can Help You With</h2>
+  </div>
+  <div class="grid grid-3">
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/strengthtraining,barbell/all?lock=2" alt="Strength Training">
+      <h3>Strength Training</h3>
+      <p>Free weights, machines, and structured resistance training.</p>
+    </div>
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/cardio,treadmill,running/all?lock=3" alt="Cardio">
+      <h3>Cardio</h3>
+      <p>Build cardiovascular endurance and improve overall fitness.</p>
+    </div>
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/personaltrainer,gymcoach/all?lock=4" alt="Personal Training">
+      <h3>Personal Training</h3>
+      <p>One-on-one guidance tailored to your specific goals.</p>
+    </div>
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/groupfitness,gymclass/all?lock=5" alt="Group Training">
+      <h3>Group Training</h3>
+      <p>Stay motivated training alongside an energetic community.</p>
+    </div>
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/beginnerworkout,dumbbell/all?lock=6" alt="Beginner Program">
+      <h3>Beginner Program</h3>
+      <p>An easy start that builds consistent training habits.</p>
+    </div>
+    <div class="card">
+      <img src="https://loremflickr.com/600/500/athlete,sprinttraining/all?lock=7" alt="Athletic Performance">
+      <h3>Athletic Performance</h3>
+      <p>Speed, mobility, and overall physical power.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MEMBERSHIP -->
+<section class="section alt" id="membership">
+  <div class="section-head">
+    <p class="eyebrow">Membership</p>
+    <h2>Choose Your Plan</h2>
+  </div>
+  <div class="grid grid-3 plans">
+    <div class="plan">
+      <h3>Day Pass</h3>
+      <p class="price">Call for Price<span>/day</span></p>
+      <ul>
+        <li>Gym access</li>
+        <li>Training equipment</li>
+        <li>Cardio area</li>
+      </ul>
+      <a href="#register" class="btn btn-line">Register</a>
+    </div>
+    <div class="plan featured">
+      <p class="badge">Most Popular</p>
+      <h3>Monthly</h3>
+      <p class="price">Call for Price<span>/month</span></p>
+      <ul>
+        <li>Full gym access</li>
+        <li>Strength & cardio equipment</li>
+        <li>Functional training area</li>
+      </ul>
+      <a href="#register" class="btn btn-accent">Register</a>
+    </div>
+    <div class="plan">
+      <h3>Long-Term</h3>
+      <p class="price">Call for Price<span>/year</span></p>
+      <ul>
+        <li>Full gym access</li>
+        <li>Member support</li>
+        <li>Extra benefits</li>
+      </ul>
+      <a href="#register" class="btn btn-line">Register</a>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section class="section" id="schedule">
+  <div class="section-head">
+    <p class="eyebrow">Schedule</p>
+    <h2>Days & Hours</h2>
+  </div>
+  <div class="schedule-grid">
+    <div class="day"><span class="d-num">01</span><span class="d-name">Monday</span><span class="d-time">6:00–21:00</span></div>
+    <div class="day"><span class="d-num">02</span><span class="d-name">Tuesday</span><span class="d-time">6:00–21:00</span></div>
+    <div class="day"><span class="d-num">03</span><span class="d-name">Wednesday</span><span class="d-time">6:00–21:00</span></div>
+    <div class="day"><span class="d-num">04</span><span class="d-name">Thursday</span><span class="d-time">6:00–21:00</span></div>
+    <div class="day"><span class="d-num">05</span><span class="d-name">Friday</span><span class="d-time">6:00–21:00</span></div>
+    <div class="day"><span class="d-num">06</span><span class="d-name">Saturday</span><span class="d-time">7:00–20:00</span></div>
+    <div class="day off"><span class="d-num">07</span><span class="d-name">Sunday</span><span class="d-time">Closed</span></div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="section alt" id="gallery">
+  <div class="section-head">
+    <p class="eyebrow">Gallery</p>
+    <h2>Inside the Strength</h2>
+  </div>
+  <div class="gallery-grid">
+    <img src="https://loremflickr.com/700/700/gym,weightroom/all?lock=8" alt="">
+    <img src="https://loremflickr.com/700/900/bodybuilding,muscles/all?lock=9" alt="">
+    <img src="https://loremflickr.com/700/700/fitnessclass,workout/all?lock=10" alt="">
+    <img src="https://loremflickr.com/700/900/dumbbells,weights/all?lock=11" alt="">
+    <img src="https://loremflickr.com/700/700/gymequipment,fitnesscenter/all?lock=12" alt="">
+    <img src="https://loremflickr.com/700/700/crossfit,training/all?lock=13" alt="">
+  </div>
+</section>
+
+<!-- MEMBERS LOOKUP -->
+<section class="section" id="register">
+  <div class="section-head">
+    <p class="eyebrow">Members</p>
+    <h2>Check Your Membership</h2>
+    <p class="note">Search your name below to see if you're registered with Feysal Fitness Center. New members are added by our staff.</p>
+  </div>
+
+  <div class="register-wrap">
+    <div class="reg-form">
+      <label>Search by Name
+        <input type="text" id="searchName" placeholder="Type your name...">
+      </label>
+      <div id="searchResults" class="member-list">
+        <p class="empty-state">Start typing your name to search.</p>
+      </div>
+    </div>
+
+    <div class="admin-panel">
+      <div class="admin-head">
+        <h3 id="staffHeading">Staff Access</h3>
+        <button id="staffLoginBtn" class="btn btn-line small">Staff Login</button>
+      </div>
+
+      <div id="staffArea" class="hidden">
+        <form id="regForm" class="reg-form" style="padding:0;border:none;background:none;">
+          <label>Full Name
+            <input type="text" id="fName" required placeholder="e.g. Hassan Ali">
+          </label>
+          <label>Phone Number
+            <input type="tel" id="fPhone" required placeholder="61XXXXXXX">
+          </label>
+          <label>Plan
+            <select id="fPlan">
+              <option>Day Pass</option>
+              <option selected>Monthly</option>
+              <option>Long-Term</option>
+            </select>
+          </label>
+          <button type="submit" class="btn btn-accent full">Add Member</button>
+          <p class="form-msg" id="formMsg"></p>
+        </form>
+
+        <div class="admin-head" style="margin-top:20px;">
+          <h3>Registered Members <span id="memberCount">(0)</span></h3>
+          <button id="clearAll" class="btn btn-line small">Clear All</button>
+        </div>
+        <div id="memberList" class="member-list">
+          <p class="empty-state">No members registered yet.</p>
+        </div>
+      </div>
+
+      <p class="admin-note">Note: this data is stored in LocalStorage and is visible on your browser. Once you host this website on a real server, you'll need a database so member data is stored securely.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section alt" id="contact">
+  <div class="section-head">
+    <p class="eyebrow">Contact</p>
+    <h2>Ready to Start Today</h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info">
+      <p><strong>📍 Location</strong><br>Baidoa, Somalia</p>
+      <p><strong>📞 Phone</strong><br><a href="tel:+252614158493">+252 61 415 8493</a></p>
+      <p><strong>💬 WhatsApp</strong><br><a href="https://wa.me/252614158493" target="_blank" rel="noopener">+252 61 415 8493</a></p>
+      <p><strong>🕐 Hours</strong><br>Monday–Saturday · 6:00 AM – 9:00 PM</p>
+    </div>
+    <div class="contact-cta">
+      <h3>Ready to get started?</h3>
+      <a href="https://wa.me/252614158493" target="_blank" rel="noopener" class="btn btn-accent full">Message Us on WhatsApp</a>
+      <a href="#register" class="btn btn-line full">Register Now</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="brand">FEYSAL<span>.</span></p>
+    <p>Baidoa, Somalia · +252 61 415 8493</p>
+    <p class="copy">© 2026 Feysal Fitness Center. All Rights Reserved.</p>
+  </div>
+</footer>
+
+<!-- External JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
